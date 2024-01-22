@@ -6,7 +6,7 @@
 #    By: rferradi <rferradi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/10 03:16:15 by mmourdal          #+#    #+#              #
-#    Updated: 2023/09/28 18:39:57 by rferradi         ###   ########.fr        #
+#    Updated: 2024/01/22 10:00:33 by rferradi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -84,6 +84,7 @@ CDFLAGS		= -MMD -MP
 NAME = webserv
 
 all : $(NAME)
+			mkdir -p var/downloads
 
 $(NAME) : $(OBJS_DIR) $(OBJS)
 	$(CXX) $(CXXFLAGS) $(OBJS) $(CDFLAGS) -o $(NAME)

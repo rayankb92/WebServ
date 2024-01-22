@@ -61,7 +61,7 @@
         <?php foreach ($_GET as $key => $value) : ?>
             <p><strong><?= $key ?>:</strong> <?= $value ?></p>
         <?php endforeach; ?>
-		<a href="http://localhost:4244/">Retour</a>
+		<a href="index.html">Retour</a>
     </div>
 </body>
 </html>

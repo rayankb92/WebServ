@@ -6,7 +6,7 @@
 /*   By: rferradi <rferradi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/29 01:30:32 by rferradi          #+#    #+#             */
-/*   Updated: 2023/09/28 18:05:05 by rferradi         ###   ########.fr       */
+/*   Updated: 2024/01/22 08:22:19 by rferradi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ HttpServer::~HttpServer()
 
 /*--------------------------------------------------MEMBER FUNCTION--------------------------------------------------*/
 
-
 void	HttpServer :: printServers() const
 {
 	int maxDots = 3;
@@ -39,7 +38,7 @@ void	HttpServer :: printServers() const
 			std::cout << ".";
 		std::cout << "\r";
 		std::cout.flush();
-		usleep(350000);
+		// usleep(350000);
 	}
 	std::cout << "\033[2K\r"; //
 	std::cout << B_GREEN << "[INFO] " << "Server(s) is ready" << RESET << std::endl << std::endl;
