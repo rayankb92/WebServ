@@ -1,11 +1,11 @@
 
-# Web Server with Epoll
+# Web Server
 
 
 This is a versatile C++ web server employing the epoll mechanism for efficient event-driven communication. It is specifically designed to handle multiple servers concurrently, making it suitable for scenarios where parallel processing of requests across different ports is required.
 
 
-https://github.com/rayankb92/WebServ/assets/90380810/a2949951-4f72-4463-a328-185aafdbccc0
+https://github.com/rayankb92/WebServ/assets/90380810/cbf02b7c-e274-4f1d-bd20-21d102102e30
 
 
 ## Features
